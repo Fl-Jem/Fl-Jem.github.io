@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		Give Feedback
+	</title>
+	
+	<!-- Imports Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+
+<body>
+	<div style="float: right;">	
+		<a href="index.html">
+			<div class="menu">
+				HOME
+			</div>
+		</a>
+		<a href="animals.html">
+			<div class="menu">
+				ANIMALS
+			</div>
+		</a>
+		<a href="gallery.html">
+			<div class="menu">
+				GALLERY
+			</div>
+		</a>
+		<a href="form.html">
+			<div class="menu"  style="font-size: 37.5px; padding-top: 12.5px;">
+				GIVE FEEDBACK
+			</div>
+		</a>
+	</div>
+	
+	<!-- Headers -->
+	<h1>Give Feedback</h1>
+	
+	<div>
+		<h2 style="font-size: 40px;">Site Survey</h2>
+	</div>
+	
+	<div>
+		<p style="font-size: 20px;">Fill out the form to let me know your comments and ideas for the site!
+		<br>(This doesn't actually work yet.)</p>
+	</div>
+	
+	<!-- Survey form -->
+	<form class="content">
+		<div class="form">
+			<p>How is your experience with the site overall?</p>
+			<label for="Option_Bad">Bad</label>
+			<input type="radio" id="Option_Bad" name="Site Rating">
+			
+			<label for="Option_Okay">Okay</label>
+			<input type="radio" id="Option_Okay" name="Site Rating">
+			
+			<label for="Option_Good">Good</label>
+			<input type="radio" id="Option_Good" name="Site Rating">
+			
+			<label for="Option_Great">Great</label>
+			<input type="radio" id="Option_Great" name="Site Rating">
+		</div>
+		
+		<div class="form">
+			<p>What is your favorite page on the site?</p>
+			<label for="Option_Home">Home</label>
+			<input type="radio" id="Option_Home" name="Favorite_Page">
+			
+			<label for="Option_Animals">Animals</label>
+			<input type="radio" id="Option_Animals" name="Favorite_Page">
+			
+			<label for="Option_Gallery">Gallery</label>
+			<input type="radio" id="Option_Gallery" name="Favorite_Page">
+			
+			<label for="Option_Give_Feedback">Give Feedback</label>
+			<input type="radio" id="Option_Give_Feedback" name="Favorite_Page">
+		</div>
+		
+		<div class="form">
+			<p>Which pictures are the best pictures of BB?</p>
+			<label for="BB0"><img src="media/indexbb.png" alt="bb" width="120" height="120""></label>
+			<input type="checkbox" id="BB0">
+			
+			<label for="BB1"><img src="media/bb0.jpg" alt="bb0" width="120" height="120""></label>
+			<input type="checkbox" id="BB1">
+			
+			<label for="BB2"><img src="media/bb1.jpg" alt="bb1" width="120" height="120""></label>
+			<input type="checkbox" id="BB2">
+			
+			<label for="BB3"><img src="media/bb2.jpg" alt="bb2" width="120" height="120""></label>
+			<input type="checkbox" id="BB3">
+			
+			<label for="BB4"><img src="media/bird.png" alt="wide bb" width="120" height="120""></label>
+			<input type="checkbox" id="BB4">
+		</div>
+		
+		<div class="form">
+			<p>What else could be changed or added to the site?</p>
+			<input type="textarea" id="Comment" style="margin-left: 25px; width: 400px; height: 200px;">
+		</div>
+		
+		<div class="form">
+			<label for="Name">Name</label>
+			<input type="text" id="Name">
+		
+			<label for="Email">Email</label>
+			<input type="email" id="Email">
+		</div>
+		
+		<div class="form">
+			<input type="reset" value="Reset" style="margin-left: 25px;">
+			<input type="submit" value="Submit">
+		</div>
+	</form>
+</body>
+</html>
