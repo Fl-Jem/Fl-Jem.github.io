@@ -19,7 +19,7 @@ h2 {
 	font-family: serif;
 	}
 		
-/*Paragraph style*/
+/* Paragraph style */
 p {
 	margin-left: 25px;
 	margin-right: 25px;
@@ -28,7 +28,12 @@ p {
 	font-family: sans-serif;
 	}
 
-/*Table Styles*/
+/* Image Style */
+img {
+	border-radius: 12.5px;
+	}
+
+/* Table Styles */
 table {
     border: 5px solid #1d2839;
 	color: #1d2839;
@@ -53,6 +58,24 @@ label {
 	font-family: sans-serif;
 	}
 
+/* Link style */
+a { 
+	color: rgba(45, 160, 247, 100%);
+	}
+
+a:visited  {
+	color: rgb(0, 80, 140);
+	}
+
+/* Button and Input styles */
+button:focus {
+    border: 2.5px solid rgb(0, 80, 140);
+}
+
+input:focus {
+    border: 2.5px solid rgb(0, 80, 140);
+}
+
 
 /* Style Classes */
 .article {
@@ -70,6 +93,7 @@ label {
 	width: 200px;
 	height: 100px; 
 	border-radius: 25px;
+	border: 5px solid rgba(45, 160, 247, 100%);
 	background-color: rgba(45, 160, 247, 100%); 
 	color: #1d2839;
 	text-align: center; 
@@ -79,7 +103,32 @@ label {
 	margin: 37.5px;
 	}
 	
+.menu:hover {
+	border: 5px solid rgb(0, 80, 140);
+	}
+	
+.menu:active {
+	border: 5px solid yellow;
+	color: yellow;
+	}
+	
 .form {
 	margin-bottom: 25px; 
 	margin-top: 50px;
+	}
+	
+.player {
+	width: 24px;
+	height: 24px;
+	padding-left: 32px; 
+	padding-top: 4px;
+	}
+	
+.player:active {
+	width: 16px;
+	height: 16px;
+	padding-left: 36px; 
+	padding-top: 8px;
+	padding-bottom: 4px;
+	margin-right: 4px;
 	}
